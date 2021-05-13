@@ -6,10 +6,10 @@ input validation is not a use case for error handling ( Exception handling) as t
 
 Real World Exception Handling use cases :
 
-Networking issues ( waiting on a response from a network request.)
-Database connection errors.
-Operating system failures.
-Server Troubleshooting. (To print and share stacktrace.)
+  Networking issues ( waiting on a response from a network request.)
+  Database connection errors.
+  Operating system failures.
+  Server Troubleshooting. (To print and share stacktrace.)
 
 As a rule of thumb -> we only use Exception handling for ' Exceptional ' cases.
 
