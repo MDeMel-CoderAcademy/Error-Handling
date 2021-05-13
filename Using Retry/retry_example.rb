@@ -4,9 +4,9 @@ grades = []
 for idx in 0..(scores.length-1)
    begin
        grades[idx] = scores[idx] / possibles[idx]
-       rescue TypeError
+       # rescue TypeError
        possibles[idx] = 100.0
-       retry
+       # retry
     end
  end
 

@@ -10,11 +10,3 @@ class InputCheck
   end
 
 end
-
-#rescue
-#{}
-
-#rescue => e
-#puts e
-
-#rescue StandardError => msg

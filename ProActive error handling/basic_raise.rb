@@ -2,15 +2,20 @@ class BasicRaise
 
   def pretend_error
   begin
+
     puts 'Error prone code executed and  gone unnoticed....'
-    raise 'An error has occured. (raise executed)'
+
+
+    # raise
+
     puts 'Line after raise.'
-  rescue => e
-    puts 'Rescue block executed , Exception class : ' + (e.class).to_s
+  # rescue => error_variable
+  #   puts 'Rescue block executed , Exception class : ' + (error_variable.class).to_s
+
   end
+
   puts 'I am after the Exception handling scope'
 end
 end
 
-
-# use rescue to show type of error
+#raise ZeroDivisionError.new "hey im from mel flex track"

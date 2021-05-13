@@ -3,7 +3,7 @@ require_relative 'input_check'
 class Test
 
    object1 = InputCheck.new
-   object1.check_input(0)
+   object1.check_input
 
   #object2 = InputCheck.new
   #object2.check_input("hello")
