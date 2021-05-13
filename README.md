@@ -22,6 +22,7 @@ uncomment the lines of code inside class or method declaration - save file and r
 observe how the errors are handled.
 
 Important points to observe in 'error handling base' - exercise
+
    - observe that we have not used a ' begin end ' block to cover the error handling scope
      why ?  for short (few lines of code) classes and methods it is not always necessary to explicitly declare a begin and an end to error handling because it is  
      implied by the start and end of the class or method declaration. (implicit declaration)
@@ -47,6 +48,7 @@ Important points to observe in 'ProActive error handling base' (Use test.rb to r
     - uncomment the rescue function and observe how we handle this Exception.
 
 Important points to observe in 'Using Retry'
+
     - run retry_example.rb observe the errors
     - uncomment rescue and run code
     - uncomment retry and run code
@@ -56,6 +58,7 @@ Important points to observe in 'Using Retry'
     - uncomment retry and observe how it handles the Exception.
 
 Important points to observe in 'Using ensure'
+
     - run the code once , observe how the last puts statement was not executed.
     - uncomment 'ensure' observe how the code below it was executed.
 
