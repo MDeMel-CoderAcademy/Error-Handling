@@ -4,7 +4,7 @@ Please note that the examples given in these exercises do not reflect and should
 Some of these exercise use input validation cases to explain error handling concepts. (It is solely due to the ease of entry for students)
 input validation is not a use case for error handling ( Exception handling) as there are easier and simpler ways to do it.
 
-##Real World Exception Handling use cases :
+## Real World Exception Handling use cases :
 
 - File I/O
 - Networking issues ( waiting on a response from a network request.)
@@ -15,7 +15,7 @@ input validation is not a use case for error handling ( Exception handling) as t
 **As a rule of thumb -> we only use Exception handling for ' Exceptional ' cases.**
 
 
-##How to study these files :
+## How to study these files :
 
 - First run the initial code ( ruby file_name.rb)  - (its usually 'test.rb')
 - observe the errors that ruby puts forth.
