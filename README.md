@@ -69,8 +69,8 @@ Important points to observe in 'Using ensure'
 Inside the 'Custom exception classes' folder you will find : dark_side_error.rb and jedi_council.rb
 DarkSideError has been subclassed (inheritance) with the 'StandardError' exception class -> effectively making it a Custom Exception defined by the programmer.
 
-  - run command ' ruby jedi_council.rb'
-  - observe how all names are printed without error.
-  - uncomment the raise function that specifies the error as the custom error we defined. (DarkSideError)
-  - observe the different result in the terminal
-  - Study how the 'rescue' function rescues the custom exception and prints the custom message defined in the DarkSideError class.
+    - run command ' ruby jedi_council.rb'
+    - observe how all names are printed without error.
+    - uncomment the raise function that specifies the error as the custom error we defined. (DarkSideError)
+    - observe the different result in the terminal
+    - Study how the 'rescue' function rescues the custom exception and prints the custom message defined in the DarkSideError class.
