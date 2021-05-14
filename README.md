@@ -4,33 +4,34 @@ Please note that the examples given in these exercises do not reflect and should
 Some of these exercise use input validation cases to explain error handling concepts. (It is solely due to the ease of entry for students)
 input validation is not a use case for error handling ( Exception handling) as there are easier and simpler ways to do it.
 
-Real World Exception Handling use cases :
+##Real World Exception Handling use cases :
 
-  Networking issues ( waiting on a response from a network request.)
-  Database connection errors.
-  Operating system failures.
-  Server Troubleshooting. (To print and share stacktrace.)
+- File I/O
+- Networking issues ( waiting on a response from a network request.)
+- Database connection errors.
+- Operating system failures.
+- Server Troubleshooting. (To print and share stacktrace.)
 
-As a rule of thumb -> we only use Exception handling for ' Exceptional ' cases.
+**As a rule of thumb -> we only use Exception handling for ' Exceptional ' cases.**
 
 
-How to study these files :
+##How to study these files :
 
-First run the initial code ( ruby file_name.rb)  - (its usually 'test.rb')
-observe the errors that ruby puts forth.
-uncomment the lines of code inside class or method declaration - save file and run the code again. (uncomment 'rescue')
-observe how the errors are handled.
+- First run the initial code ( ruby file_name.rb)  - (its usually 'test.rb')
+- observe the errors that ruby puts forth.
+- uncomment the lines of code inside class or method declaration - save file and run the code again. (uncomment 'rescue')
+- observe how the errors are handled.
 
 Important points to observe in 'error handling base' - exercise
 
-   - observe that we have not used a ' begin end ' block to cover the error handling scope
-     why ?  for short (few lines of code) classes and methods it is not always necessary to explicitly declare a begin and an end to error handling because it is  
-     implied by the start and end of the class or method declaration. (implicit declaration)
-   - But keep in mind that recommended practice is to use the ' begin end ' block to define the scope of error handling as usually most industry level 'class' files
-     contain many lines of code.
-   - Also observe certain 'puts' methods have not been executed. this is due to the rescue method rescuing the exceptions before any of the latter code is executed.
-   - Below the end of the class declaration in test.rb you will find different syntaxes (iterations) of the 'rescue' function. Please try these iterations to
-     understand how they function.
+     - observe that we have not used a ' begin end ' block to cover the error handling scope
+       why ?  for short (few lines of code) classes and methods it is not always necessary to explicitly declare a begin and an end to error handling because it is  
+       implied by the start and end of the class or method declaration. (implicit declaration)
+     - But keep in mind that recommended practice is to use the ' begin end ' block to define the scope of error handling as usually most industry level 'class' files
+       contain many lines of code.
+     - Also observe certain 'puts' methods have not been executed. this is due to the rescue method rescuing the exceptions before any of the latter code is executed.
+     - Below the end of the class declaration in test.rb you will find different syntaxes (iterations) of the 'rescue' function. Please try these iterations to
+       understand how they function.
 
 Important points to observe in 'ProActive error handling base' (Use test.rb to run each class of code. uncomment the block of code relevant to each class)
 
@@ -63,6 +64,6 @@ Important points to observe in 'Using ensure'
     - uncomment 'ensure' observe how the code below it was executed.
 
 
-# Tuesday session content.
+## Raising Custom Exceptions
 
 Custom Error classes are yet to be taught.
